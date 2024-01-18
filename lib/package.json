@@ -39,6 +39,7 @@
     "lint": "tsc"
   },
   "devDependencies": {
+    "@types/degit": "^2.8.6",
     "@types/node": "^18.13.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
@@ -53,6 +54,9 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.27.1",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "degit": "^2.8.4",
     "tsup": "^8.0.1"
   }
 }
