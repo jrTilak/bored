@@ -1,6 +1,6 @@
 {
   "name": "@iamjrtilak/bored",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI to create boilerplate codes",
   "publishConfig": {
     "access": "public"
