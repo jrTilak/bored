@@ -13,3 +13,6 @@ npx @iamjrtilak/bored@latest <template-name> <directory>
 ```
 npx @iamjrtilak/bored@latest vite-react-ts .
 ```
+
+### Supported Templates
+ - vite-react-ts
