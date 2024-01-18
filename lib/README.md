@@ -5,11 +5,11 @@ Created a template cloner CLI called bored to automate the process of creating a
 ### Usage
 
 ```
-npx @iamjrtilak/bored@latest <template-name> <directory>
+npx @iamjrtilak/bored@latest clone <template-name> <directory>
 ```
 
 ###Example
 
 ```
-npx @iamjrtilak/bored@latest vite-react-ts .
+npx @iamjrtilak/bored@latest clone vite-react-ts .
 ```
