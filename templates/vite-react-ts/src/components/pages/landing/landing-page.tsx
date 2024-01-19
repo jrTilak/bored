@@ -6,7 +6,7 @@ import TechsList from "./techs-list";
 import FetchedData from "./fetched-data";
 import Loading from "react-loading";
 import { useGlobalContext } from "@/hooks/use-global-context";
-import HelloApi from "@/api/hello-api";
+import HelloApi from "@/handlers/hello-api";
 
 const LandingPage = () => {
   const { count, setCount } = useGlobalContext();
