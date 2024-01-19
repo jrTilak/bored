@@ -28,7 +28,7 @@ const routes: RouteType[] = [
 const App = () => {
   return (
     <Routes>
-      {routes.map(({ path, Layout, Component, noRootLayout }, index) => {
+      {routes.map(({ path, Layout, Component, noRootLayout }) => {
         const CompWithLayout = Layout ? (
           <Layout>
             <Suspense fallback={<div>Loading...</div>}>
